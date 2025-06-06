@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+      <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">PORTFOLIO</div>
+      <ul class="nav-links hide-on-mobile" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#technologies">TECHNOLOGIES</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+      <div class="theme-toggle">
+  <input type="checkbox" id="toggle-theme" />
+  <label for="toggle-theme">🌞 / 🌙</label>
+</div>
+    </div>
+  </nav>
+  </header>
+
+<section class="hero" id="home">
+    <div class="hero-content">
+    <h1>Palak Pandey</h1>
+    <h2>Frontend Developer</h2>
+    <p>I build clean, modern, and responsive web interfaces.</p>
+    <a href="#portfolio" class="hero-button">View My Work</a>
+  </div>
+    <!-- <div class="image-section">
+    <div class="image">
+      <img src="" alt="Palak Pandey - Frontend Developer" />
+    </div>
+    </div> -->
+  </section>
+  <section class="technologies" id="technologies">
+  <h2 class="section-title">Technologies</h2>
+  <div class="tech-grid">
+    <div class="tech-card">HTML</div>
+    <div class="tech-card">CSS</div>
+    <div class="tech-card">JavaScript</div>
+    <div class="tech-card">React</div>
+    <div class="tech-card">Bootstrap</div>
+    <div class="tech-card">Git & GitHub</div>
+    <div class="tech-card">C</div>
+    <div class="tech-card">Excel</div>
+  </div>
+</section>
+  <section class="projects" id="portfolio">
+  <h2 class="section-title">My Projects</h2>
+  <div class="projects-grid">
+    <div class="project-card">
+      <img src="project1.jpg" alt="Project 1" />
+      <div class="project-info">
+        <h3>Project Title 1</h3>
+        <p>Short description about the project, tech used, and your role.</p>
+        <a href="#" target="_blank" class="project-link">View Details</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="project2.jpg" alt="Project 2" />
+      <div class="project-info">
+        <h3>Project Title 2</h3>
+        <p>Short description about the project, tech used, and your role.</p>
+        <a href="#" target="_blank" class="project-link">View Details</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="project3.jpg" alt="Project 3" />
+      <div class="project-info">
+        <h3>Project Title 3</h3>
+        <p>Short description about the project, tech used, and your role.</p>
+        <a href="#" target="_blank" class="project-link">View Details</a>
+      </div>
+    </div>
+  </div>
+</section>
+   <section class="contact" id="contact">
+  <h2 class="section-title">Contact Me</h2>
+  <form action="mailto:palakpandey9608@gmail.com" method="POST" enctype="text/plain" class="contact-form">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required placeholder="Your full name" />
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required placeholder="Your email address" />
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" required placeholder="Write your message here"></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer class="footer">
+  <div class="footer-container">
+    <p>📧 Email me at: 
+      <a href="mailto:palakpandey9608@gmail.com">palakpandey9608@gmail.com</a>
+    </p>
+  </div>
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
